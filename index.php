@@ -1,3 +1,9 @@
+<?php
+if(isset($_POST['submit'])){
+    header('location:read.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
